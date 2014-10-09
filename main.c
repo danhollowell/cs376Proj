@@ -9,7 +9,7 @@
  *
  */
 #include "robot.h"
-
+#include "huey17.h"
 /**
  * main()
  *
@@ -27,6 +27,7 @@ int main(int argc, const char * argv[])
     return -1;
   }
 
+  huey17();
   // Convert the command-line argument to a number.
   int num = atoi(argv[1]);
 
