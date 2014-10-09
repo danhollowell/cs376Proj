@@ -10,3 +10,5 @@ robot.o:	robot.c robot.h
 
 hollowed17.o:	hollowed17.c hollowed17.h
 	$(CC) -c hollowed17.c
+huey17.o:	huey17.c huey17.h
+	$(CC) -c huey17.c
