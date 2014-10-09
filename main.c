@@ -9,7 +9,11 @@
  *
  */
 #include "robot.h"
+
 #include "huey17.h"
+
+#include "hollowed17.h"
+
 /**
  * main()
  *
@@ -19,6 +23,7 @@
  * 
  * @returns nothing.
  */
+
 int main(int argc, const char * argv[])
 {
   // Check the command line arguments.
@@ -27,7 +32,11 @@ int main(int argc, const char * argv[])
     return -1;
   }
 
+
   huey17();
+
+  hollowed17();
+
   // Convert the command-line argument to a number.
   int num = atoi(argv[1]);
 
