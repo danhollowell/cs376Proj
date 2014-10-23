@@ -27,11 +27,14 @@
 int main(int argc, const char * argv[])
 {
   // Check the command line arguments.
-  if(argc != 2) {
+  if(argc == 1){
+    robPrintAscii();
+    return 0;
+  }
+ else if(argc != 2) {
     printf("usage: %s <number> \n", argv[0]);
     return -1;
   }
-
 
   huey17();
 
