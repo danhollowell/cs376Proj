@@ -47,14 +47,12 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
-<<<<<<< HEAD
-  printf("    i_i    \n"
+ printf("    i_i    \n"
 	 "   [V_V]   \n"
 	 "    i_i  \n"
 	 "   [-_-]   \n"
 	 "  /|___|\\  \n"
          "   d   b  \ "
-	 "LOOK AT THE\n"
-	 "SUPER BIRD"); 
+	 "LOOK AT THE\nSUPER BIRD"); 
 
 }
