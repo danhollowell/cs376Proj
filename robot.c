@@ -35,7 +35,7 @@ void robPrintMessage(int num)
     {
       printf("really ");
     }
-
+  robPrintAscii();
   printf("loves robots!\n");
 
   return;
@@ -47,12 +47,20 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
- printf("    i_i    \n"
-	 "   [V_V]   \n"
-	 "    i_i  \n"
-	 "   [-_-]   \n"
-	 "  /|___|\\  \n"
-         "   d   b  \ "
-	 "LOOK AT THE\nSUPER BIRD"); 
+  int i=0;
+
+  char * spaces[3] = {"", "      ", "                 "};
+
+  for (i=0;i<3;i++){
+
+    printf("%s    i_i    \n",spaces[i]);
+    printf("%s   [V_V]   \n",spaces[i]);
+    printf("%s    i_i  \n",spaces[i]);
+    printf("%s   [-_-]   \n",spaces[i]);
+    printf("%s  /|___|\\  \n",spaces[i]);
+    printf("%s   d   b  \n ",spaces[i]);
+    printf("%sLOOK AT THE\nSUPER BIRD ",spaces[i]); 
+
+}
 
 }
