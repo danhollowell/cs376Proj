@@ -6,6 +6,7 @@
  *
  * @author Tanya L. Crenshaw
  * @author Daniel Hollowell
+ * @author Tanya L. Crenshaw and Nick Huey
  * @since August 2013
  *
  */
@@ -46,9 +47,14 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
+<<<<<<< HEAD
   printf("    i_i    \n"
 	 "   [V_V]   \n"
+	 "    i_i  \n"
+	 "   [-_-]   \n"
 	 "  /|___|\\  \n"
-         "   d   b   "); 
+         "   d   b  \ "
+	 "LOOK AT THE\n"
+	 "SUPER BIRD"); 
 
 }
